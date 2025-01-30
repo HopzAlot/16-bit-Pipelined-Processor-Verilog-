@@ -1,0 +1,5 @@
+verilog work "RAM.V"
+verilog work "ALU.V"
+verilog work "DATAPATH.V"
+verilog work "DECODER.V"
+verilog work "CONTROLUNIT.V"

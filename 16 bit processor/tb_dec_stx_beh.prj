@@ -1,0 +1,6 @@
+verilog isim_temp "RAM.V"
+verilog isim_temp "ALU.V"
+verilog isim_temp "DATAPATH.V"
+verilog isim_temp "DECODER.V"
+verilog isim_temp "tb_dec.v"
+verilog isim_temp "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

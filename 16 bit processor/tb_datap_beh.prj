@@ -1,0 +1,5 @@
+verilog work "RAM.V"
+verilog work "ALU.V"
+verilog work "DATAPATH.V"
+verilog work "tb_datap.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Virtu/Desktop/New folder/updated/tb_finalized_isim_beh.exe -prj C:/Users/Virtu/Desktop/New folder/updated/tb_finalized_beh.prj work.tb_finalized work.glbl 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/RAM.V" into library work
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/ALU.V" into library work
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/DATAPATH.V" into library work
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/DECODER.V" into library work
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/CONTROLUNIT.V" into library work
+Analyzing Verilog file "C:/Users/Virtu/Desktop/New folder/updated/tb_finalized.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "C:/Users/Virtu/Desktop/New folder/updated/CONTROLUNIT.V" Line 75: Target <pc_1> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Users/Virtu/Desktop/New folder/updated/DATAPATH.V" Line 80: Target <rd_data> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Users/Virtu/Desktop/New folder/updated/DATAPATH.V" Line 84: Target <pc_1> of concurrent assignment or output port connection should be a net type.
+WARNING:HDLCompiler:329 - "C:/Users/Virtu/Desktop/New folder/updated/ALU.V" Line 90: Target <rd_data> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Fuse Memory Usage: 160128 KB
+Fuse CPU Usage: 358 ms
+Compiling module RAM
+Compiling module ALU
+Compiling module DATAPATH
+Compiling module DECODER
+Compiling module CONTROLUNIT
+Compiling module tb_finalized
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable C:/Users/Virtu/Desktop/New folder/updated/tb_finalized_isim_beh.exe
+Fuse Memory Usage: 165604 KB
+Fuse CPU Usage: 530 ms

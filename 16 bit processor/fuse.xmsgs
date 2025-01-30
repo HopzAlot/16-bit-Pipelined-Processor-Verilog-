@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Virtu/Desktop/New folder/updated/CONTROLUNIT.V" Line 75: Target &lt;<arg fmt="%s" index="1">pc_1</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Virtu/Desktop/New folder/updated/DATAPATH.V" Line 80: Target &lt;<arg fmt="%s" index="1">rd_data</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Virtu/Desktop/New folder/updated/DATAPATH.V" Line 84: Target &lt;<arg fmt="%s" index="1">pc_1</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"C:/Users/Virtu/Desktop/New folder/updated/ALU.V" Line 90: Target &lt;<arg fmt="%s" index="1">rd_data</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+</messages>
+
