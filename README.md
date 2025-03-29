@@ -71,8 +71,11 @@ The processor supports the following instruction types:
 
 ### Running the Project
 1. Clone the repository:
+    ```sh
    git clone https://github.com/HopzAlot/16-bit-Pipelined-Processor-Verilog-
-
+   ```
+2. Open the .v files in your Verilog simulator.
+3. Make test files to check the working status of the files.
 ## Contributors
 - **HOPZALOT** - Developer
 
