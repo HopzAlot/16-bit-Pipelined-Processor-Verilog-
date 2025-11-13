@@ -1,14 +1,13 @@
-# 16-Bit Pipelined Processor
+# 16-Bit Processor
 
 ## Overview
 I was assigned to build a 16-Bit Processor as my 1st semester project performing the basic operations.
-This project implements a custom **16-bit pipelined processor** using **Verilog HDL**. The processor follows the **Harvard Architecture** and executes a basic set of instructions, including **ALU operations, Load Word (LW), and Store Word (SW)** instructions. The processor is currently compiling at **70% efficiency** and does not include additional flags.
+This project implements a custom **16-bit single cycle processor** using **Verilog HDL**. The processor follows the **Harvard Architecture** and executes a basic set of instructions, including **ALU operations, Load Word (LW), and Store Word (SW)** instructions. The processor is currently compiling at **70% efficiency** and does not include additional flags.
 
 ## Features
 - **16-bit Data Registers and Memory**
 - **8-bit Program Counter (PC)**
 - **Harvard Architecture** (Separate Instruction and Data Memory)
-- **Pipeline Implementation** for improved performance
 - **ALU Operations** (Addition, Logical Operations, Shifting, Multiplication)
 - **Memory Operations** (LW, SW)
 - **Basic Instruction Set Execution**
@@ -43,13 +42,6 @@ The processor supports the following instruction types:
 | BEQZ Rd, Label | 1010 | PC = PC + Address (if Rd == 0) |
 | BEQ Rd, Rs, Label | 1011 | PC = PC + Address (if Rd == Rs) |
 
-## Implementation Details
-- **Pipeline Stages:** The processor follows a **5-stage pipeline architecture**
-  1. **Instruction Fetch (IF)**
-  2. **Instruction Decode (ID)**
-  3. **Execution (EX)**
-  4. **Memory Access (MEM)**
-  5. **Write Back (WB)**
 - **Control Unit:** Manages control signals for each stage.
 - **Data Path:** Handles register operations and ALU computations.
 
@@ -59,7 +51,6 @@ The processor supports the following instruction types:
 - The instruction set is **basic** and can be extended for additional functionality.
 
 ## Future Improvements
-- Optimize pipeline for **higher efficiency**.
 - Implement **hazard detection and forwarding**.
 - Add **additional instruction support**.
 - Implement **status flags** for enhanced control.
